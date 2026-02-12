@@ -7,14 +7,13 @@ nav a:hover, nav a:focus {
 }
 
 /*Write selector/rule property to position the default position for the skip class element*/
-body {
+.skip {
      position: relative;
 }
 
 .skip a{
      top: -65px;
      position: absolute;
-     left: 0px;
 }
 
 /*Write selector/rule property to position the skip class element when it is in focus*/
@@ -135,7 +134,7 @@ body {
  /* Step 16:Write the selector/rule property to update the .text-block class */
  .text-block {
      max-height: 235px;
-     overflow: hidden;
+     overflow: scroll;
  }
 
 }
